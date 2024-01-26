@@ -1,0 +1,24 @@
+.sideNavbar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #f5f5f5;
+  }
+  
+  .sideNavbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sideNavbar li a {
+    text-decoration: none;
+    color: black;
+  }
+  .sideNavbar li a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+  .sideNavbar li a.active {
+    text-shadow: 2px 2px 5px blue;
+  }
